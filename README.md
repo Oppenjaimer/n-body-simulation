@@ -1,20 +1,12 @@
-# Simulation Template
+# N-body Simulation
 
-A raylib + Dear ImGui simulation template for C++. The codebase is written in a minimalist, procedural style, treating C++ as a "better C." It relies on POD structs and namespace-scoped functions rather than heavy object-oriented paradigms.
+A raylib simulation of the n-body problem in C++. The codebase is written in a minimalist, procedural style, treating C++ as a "better C." It relies on POD structs and namespace-scoped functions rather than heavy object-oriented paradigms.
 
 ## Libraries
 
-* [Raylib](https://www.raylib.com/): Compiled from source for OpenGL 4.3 support.
+* [raylib](https://www.raylib.com/): Compiled from source for OpenGL 4.3 support.
 * [Dear ImGui](https://github.com/ocornut/imgui): Cloned to `external/imgui`.
 * [rlImGui](https://github.com/raylib-extras/rlImGui): Cloned to `external/rlimgui`.
-
-## Features
-
-- [x] **Infinite** 2D scene with **panning** and **zooming**.
-- [x] **Keyboard shortcuts** for controlling the simulation (**quit**, **reset**, **pause**).
-- [x] Collapsible **settings panel** which can be moved around.
-- [x] **Random float** and **integer** generation.
-- [x] Default **Gruvbox Dark** theme.
 
 ## Usage
 
