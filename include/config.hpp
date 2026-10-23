@@ -3,7 +3,7 @@
 namespace config {
     // Application
     constexpr int fps = 60;                             ///< Target frames per second.
-    constexpr const char* title = "Simulation";         ///< Application window title.
+    constexpr const char* title = "N-Body Simulation";  ///< Application window title.
 
     // Screen
     constexpr int screen_width = 1280;                  ///< Initial screen width (px).
@@ -25,4 +25,12 @@ namespace config {
     constexpr float zoom_sensitivity_keyboard = 4.0f;   ///< Key press sensitivity for keyboard zooming.
     constexpr float zoom_min = 0.1f;                    ///< Minimum camera zoom level.
     constexpr float zoom_max = 10.0f;                   ///< Maximum camera zoom level.
+
+    // Simulation
+    constexpr float G = 1.0f;                           ///< Gravitational constant.
+    constexpr float dt = 0.01f;                         ///< Physics time step.
+    constexpr float soft_len = 0.1f;                    ///< Gravitational force softening length.
+    constexpr float px_per_unit = 500.0f;               ///< Screen pixels per physics unit.
+    constexpr float radius_factor = 5.0f;               ///< Mass-to-radius factor.
+    constexpr float body_count = 2;                     ///< Total number of interacting bodies.
 }
