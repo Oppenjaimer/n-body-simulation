@@ -1,4 +1,4 @@
-# N-body Simulation
+# N-Body Simulation
 
 A raylib simulation of the n-body problem in C++. The codebase is written in a minimalist, procedural style, treating C++ as a "better C." It relies on POD structs and namespace-scoped functions rather than heavy object-oriented paradigms.
 
